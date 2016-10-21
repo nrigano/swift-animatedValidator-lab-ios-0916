@@ -79,6 +79,8 @@ class ValidatorViewController: UIViewController, UITextFieldDelegate {
             checksPassed += 1
             passwordTextField.alpha = 0.5
             passwordConfirmTextField.alpha = 0.5
+            //animate the damn button here.  Dummy :)
+            submitButton.isEnabled = true
         } else {
             passwordConfirmTextField.backgroundColor = UIColor.red
         }
